@@ -1,0 +1,59 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+    
+}
+
+h1, h2, h3 {
+    color: #444;
+}
+
+#profile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 50px;
+}
+
+#profile-pic {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.achievement {
+    border: 1px solid #ccc;
+    margin: 20px;
+    padding: 20px;
+    background-color: #fff;
+    cursor: pointer; 
+}
+
+.achievement:hover {
+    z-index: 1; 
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    bottom: 0;
+    width: 100%;
+}
+
+h2 {
+    font-size: 2em; 
+}
